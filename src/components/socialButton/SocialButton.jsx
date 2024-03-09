@@ -1,8 +1,8 @@
-import React from 'react'
-
-function SocialButton() {
-  return (
-    <div>SocialButton</div>
+function SocialButton({icono}){
+  return(
+      <button className="socialButton">
+          <i className={`${icono} icon`}></i>
+      </button>
   )
 }
 
