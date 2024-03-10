@@ -1,7 +1,8 @@
 function SocialButton({icono}){
+  
   return(
       <button className="socialButton">
-          <i className={`${icono} icon`}></i>
+          <i className={icono}></i>
       </button>
   )
 }
